@@ -17,4 +17,4 @@ COPY . /app
 CMD node app.js
 
 #Expose application port
-EXPOSE 5555
+EXPOSE 3000

@@ -28,11 +28,8 @@ const s3download = function (s3) {
 
 const getDataFromS3 = async () => {
 
-
-    console.log(11)
     try {
         let s3 = await getS3Instance()
-        console.log(22)
         if (!s3) {
             return "Failed to connect to S3 Bucket"
         }
