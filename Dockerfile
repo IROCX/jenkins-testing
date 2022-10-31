@@ -1,5 +1,4 @@
-#Base Image node:12.18.4-alpine
-FROM node:18.9.0
+FROM node:lts-alpine
 #Set working directory to /app
 WORKDIR /app
 #Set PATH /app/node_modules/.bin
