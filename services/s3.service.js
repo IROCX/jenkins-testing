@@ -1,4 +1,3 @@
-var AWS = require('aws-sdk');
 var { getS3Instance } = require('./s3.config')
 
 
